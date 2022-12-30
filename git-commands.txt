@@ -1,9 +1,21 @@
-git status --> prints the status of the Git Repository
-git init --> initializes the Git repository 
-git config —global user.name “Let’s Kode It”
-git config —global user.email “letskodeit@gmail.com
-git config user.name”Let’s Kode It”
-git add
-git commit -m “”
-git log
-git diff <filename>
+git status                                          --> prints the status of the Git Repository
+git init                                            --> initializes the Git repository 
+git config —global user.name “Let’s Kode It”.       --> specify Username globally
+git config —global user.email “letskodeit@gmail.com.--> Specify email globally
+git config user.name”Let’s Kode It”                 -->Specify Username for particular repository 
+git add                                             --> Add file to staging environment
+git commit -m “”                                    --> Commit file to local Git Repository
+git log                                             --> Check file log history
+git diff <filename>                                 --> Check changes made to file with existing file
+git remote add origin <GitHub Repository URL>       --> Establish  connection to the remote GitHub Repository 
+git status                                          --> prints the status of the Git Repository
+git init                                            --> initializes the Git repository 
+git config —global user.name “Let’s Kode It”.       --> specify Username globally
+git config —global user.email “letskodeit@gmail.com.--> Specify email globally
+git config user.name”Let’s Kode It”                 -->Specify Username for particular repository 
+git add                                             --> Add file to staging environment
+git commit -m “”                                    --> Commit file to local Git Repository
+git log                                             --> Check file log history
+git diff <filename>                                 --> Check changes made to file with existing file
+git remote add origin <GitHub Repository URL>       --> Establish  connection to the remote GitHub Repository 
+git push origin main                                --> Push to main brunch
